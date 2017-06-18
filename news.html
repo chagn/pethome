@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="csstransforms no-csstransforms3d csstransitions">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>PET HOME</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+		<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+		<script src="js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.owl-carousel').owlCarousel({
+					loop : true,
+					margin : 0,
+					autoplay : true,
+					autoplayTimeout : 5000,
+					autoplayHoverPause : true,
+					responsiveClass : true,
+					responsive : {
+						0 : {
+							items : 1
+						},
+						600 : {
+							items : 1
+						},
+						1000 : {
+							nav : true,
+							items : 1
+						},
+						1400 : {
+							nav : true,
+							items : 1
+						}
+					}
+				});
+			});
+		</script>
+		<style>
+			body {
+				background: url(images/bg.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="menu_wrap">
+			<header>
+				<div class="menu_inner menu_relative">
+					<a class="menu_logo" href="index.html"><img src="images/MENU_LOGO.png" alt=""></a>
+					<a id="menu-toggle" class="button dark" href="#"><i class="icon-reorder"></i></a>
+					<nav id="menu_navigation">
+						<ul id="main-menu">
+							<li class="current-menu-item">
+								<a href="about_us.html">關於我們</a>
+							</li>
+							<li class="menu_parent">
+								<a href="news.html">最新資訊</a>
+							</li>
+							<li class="menu_parent">
+								<a href="pet_list.html">毛小孩介紹</a>
+							</li>
+							<li class="menu_parent">
+								<a href="message.html">留言區</a>
+							</li>
+							<li class="menu_parent">
+								<a href="adoption.html">領養</a>
+							</li>
+							<li class="menu_parent search_li">
+								<div class="searchbar">
+									<div class="input-group">
+										<input type="text" class="form-control" aria-label="...">
+										<div class="input-group-btn">
+											<button type="button" class="btn btn-default">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</button>
+										</div><!-- /btn-group -->
+									</div><!-- /input-group -->
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="clear"></div>
+				</div>
+			</header>
+			<!-- <div class="index_bor"> -->
+			<div class="container">
+				<div class="page_all page_news">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-10">
+							<div class="page_title">
+								<h2>最新資訊<span>Latest News</span></h2>
+							</div>
+							<div class="pet_content">
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<img src="images/news01.jpg" alt=" " class="img-responsive" />
+									</div>
+									<div class="item">
+										<img src="images/news02.jpg" alt=" " class="img-responsive" />
+									</div>
+								</div>
+								<div class="news_ul">
+									<ul>
+										<li>
+											<a href="news_page.html"><i class="fa fa-circle" aria-hidden="true"></i>擺攤資訊：本周擺攤地點。</a>
+										</li>
+										<li>
+											<a href="news_page.html"><i class="fa fa-circle" aria-hidden="true"></i>時毛周刊23期，今年夏季最適合毛小孩的穿著。</a>
+										</li>
+										<li>
+											<a href="news_page.html"><i class="fa fa-circle" aria-hidden="true"></i>新加入夥伴，騷肉貓!!趕快來看看牠吧。</a>
+										</li>
+										<li>
+											<a href="news_page.html"><i class="fa fa-circle" aria-hidden="true"></i>與毛哥有約~ 本月毛哥帶你吃片台南狗食。</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="footer_relative footer_inner">
+					<div class="footericon">
+						<i class="fa fa-facebook-square" aria-hidden="true"></i>
+						<i class="fa fa-twitter-square" aria-hidden="true"></i>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</div>
+					<div class="footercontent">
+						<p>
+							地址：71005 台南市永康區南台街一號
+						</p>
+						<p>
+							電話：06-253-3131
+						</p>
+					</div>
+					<div class="footerother">
+						<p>
+							四腳獸股份有限公司n©  ALL RIGHT RESERVED.
+						</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
